@@ -1,0 +1,143 @@
+[0m17:19:54.961437 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b73a490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b738c10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ba826d0>]}
+
+
+============================== 17:19:54.970839 | 084bdf17-042a-403e-9a44-4732a37b7c23 ==============================
+[0m17:19:54.970839 [info ] [MainThread]: Running with dbt=1.6.6
+[0m17:19:54.972175 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/Users/phoebejacinda/.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt init', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:19:54.973268 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/Users/phoebejacinda/.dbt')}
+[0m17:19:54.974148 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m17:29:15.408275 [debug] [MainThread]: Starter project path: /Users/phoebejacinda/dbt-dev/.venv/lib/python3.11/site-packages/dbt/include/starter_project
+[0m17:29:15.417361 [info ] [MainThread]: 
+Your new dbt project "bde" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:29:15.418161 [info ] [MainThread]: Setting up your profile.
+[0m17:29:31.558913 [info ] [MainThread]: Profile bde written to /Users/phoebejacinda/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m17:29:31.561205 [debug] [MainThread]: Command `dbt init` succeeded at 17:29:31.559810 after 576.64 seconds
+[0m17:29:31.561995 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ba826d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106e2fa10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106ee0950>]}
+[0m17:29:31.562586 [debug] [MainThread]: Flushing usage events
+[0m18:12:21.123837 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107ff3450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107fdb6d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10856a3d0>]}
+
+
+============================== 18:12:21.131200 | 6213e72f-335d-40fe-b299-4c7245006e8c ==============================
+[0m18:12:21.131200 [info ] [MainThread]: Running with dbt=1.6.6
+[0m18:12:21.132219 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': '/Users/phoebejacinda/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m18:12:37.172698 [info ] [MainThread]: A project called bde already exists here.
+[0m18:12:37.174179 [debug] [MainThread]: Command `dbt init` succeeded at 18:12:37.173873 after 16.08 seconds
+[0m18:12:37.174887 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f27f50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f34550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1081dc510>]}
+[0m18:12:37.175615 [debug] [MainThread]: Flushing usage events
+[0m18:12:50.482606 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b4b6e90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b48dc50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b6bced0>]}
+
+
+============================== 18:12:50.498048 | 0ff0fd5a-480d-4e51-b3f2-020c99c00306 ==============================
+[0m18:12:50.498048 [info ] [MainThread]: Running with dbt=1.6.6
+[0m18:12:50.500182 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/phoebejacinda/.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m18:12:58.780242 [debug] [MainThread]: Starter project path: /Users/phoebejacinda/dbt-dev/.venv/lib/python3.11/site-packages/dbt/include/starter_project
+[0m18:12:58.790100 [info ] [MainThread]: 
+Your new dbt project "bde_1" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:12:58.790780 [info ] [MainThread]: Setting up your profile.
+[0m18:13:08.715011 [debug] [MainThread]: Command `dbt init` succeeded at 18:13:08.714739 after 18.28 seconds
+[0m18:13:08.715661 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bae2490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106aaf8d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106a17950>]}
+[0m18:13:08.716239 [debug] [MainThread]: Flushing usage events
+[0m18:14:02.290933 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113c10850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113a30c10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1140258d0>]}
+
+
+============================== 18:14:02.299907 | 5d3387c2-c223-4067-ba27-47a1ba1a92c0 ==============================
+[0m18:14:02.299907 [info ] [MainThread]: Running with dbt=1.6.6
+[0m18:14:02.300882 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': '/Users/phoebejacinda/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m18:14:02.302117 [info ] [MainThread]: dbt version: 1.6.6
+[0m18:14:02.302777 [info ] [MainThread]: python version: 3.11.4
+[0m18:14:02.303328 [info ] [MainThread]: python path: /Users/phoebejacinda/dbt-dev/.venv/bin/python
+[0m18:14:02.303905 [info ] [MainThread]: os info: macOS-12.6.3-x86_64-i386-64bit
+[0m18:14:02.378554 [info ] [MainThread]: Using profiles dir at /Users/phoebejacinda/.dbt
+[0m18:14:02.379291 [info ] [MainThread]: Using profiles.yml file at /Users/phoebejacinda/.dbt/profiles.yml
+[0m18:14:02.380066 [info ] [MainThread]: Using dbt_project.yml file at /Users/phoebejacinda/dbt-dev/dbt_project.yml
+[0m18:14:02.380736 [info ] [MainThread]: Configuration:
+[0m18:14:02.381322 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m18:14:02.381787 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m18:14:02.382296 [info ] [MainThread]: Required dependencies:
+[0m18:14:02.383069 [debug] [MainThread]: Executing "git --help"
+[0m18:14:02.418035 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m18:14:02.420145 [debug] [MainThread]: STDERR: "b''"
+[0m18:14:02.420864 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m18:14:02.421431 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m18:14:02.422017 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m18:14:02.422758 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "bde", target "dev" invalid: ['dbname'] is not of type 'string'
+
+Runtime Error
+  Credentials in profile "bde_1", target "dev" invalid: ['dbname'] is not of type 'string'
+
+
+[0m18:14:02.423417 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/phoebejacinda/dbt-dev/dbt_project.yml> not found
+
+[0m18:14:02.424787 [debug] [MainThread]: Command `dbt debug` failed at 18:14:02.424568 after 0.17 seconds
+[0m18:14:02.425630 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113c77a10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113c778d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1140b8a10>]}
+[0m18:14:02.426693 [debug] [MainThread]: Flushing usage events
+[0m18:16:56.894555 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e4a2590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e4b3e90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e7edbd0>]}
+
+
+============================== 18:16:56.901461 | a6a30766-bcb2-47ff-9c3d-296d4684443c ==============================
+[0m18:16:56.901461 [info ] [MainThread]: Running with dbt=1.6.6
+[0m18:16:56.902692 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/phoebejacinda/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m18:17:01.759552 [info ] [MainThread]: A project called bde already exists here.
+[0m18:17:01.760990 [debug] [MainThread]: Command `dbt init` succeeded at 18:17:01.760756 after 4.90 seconds
+[0m18:17:01.761607 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109b25950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109b25990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e4a1e10>]}
+[0m18:17:01.762267 [debug] [MainThread]: Flushing usage events
+[0m18:17:09.938550 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112003950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112209850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ff1da50>]}
+
+
+============================== 18:17:09.946166 | 1947eaab-75e0-4998-940a-b39f74cb2bbe ==============================
+[0m18:17:09.946166 [info ] [MainThread]: Running with dbt=1.6.6
+[0m18:17:09.947135 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/phoebejacinda/.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m18:17:23.072371 [debug] [MainThread]: Starter project path: /Users/phoebejacinda/dbt-dev/.venv/lib/python3.11/site-packages/dbt/include/starter_project
+[0m18:17:23.083570 [info ] [MainThread]: 
+Your new dbt project "bde" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:17:23.084635 [info ] [MainThread]: Setting up your profile.
+[0m18:17:48.827767 [debug] [MainThread]: Command `dbt init` succeeded at 18:17:48.827516 after 38.92 seconds
+[0m18:17:48.828515 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f922390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d3a3850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d30b9d0>]}
+[0m18:17:48.829157 [debug] [MainThread]: Flushing usage events
